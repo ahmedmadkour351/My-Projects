@@ -1,0 +1,89 @@
+* {
+    text-transform: capitalize;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+    div {
+        position: absolute;
+        background-image: linear-gradient(to right, #05061a 50%, #566fa7, #f1f1f1);
+        width: 99%;
+        height: 200px;
+        margin-right: 20px;
+
+    }
+
+    img {
+        padding: 5px;
+        width: 385px;
+        height: 190px;
+        z-index: 2;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 75px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+section {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: max-content;
+    border: 1px lightgray solid;
+
+    aside {
+        border: 1px lightgrey solid;
+        background-image: linear-gradient(to right, #171c69, #566fa7, #f1f1f1);
+
+        div {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+
+        button {
+            margin: 5px;
+            border: none;
+        }
+
+        button:hover {
+            background-image: linear-gradient(to right, #171c69, #566fa7, #f1f1f1);
+            color: white;
+        }
+    }
+
+    article {
+        border: 1px lightgray solid;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+
+    #html {
+        padding: 10px;
+        margin: 10px;
+        position: absolute;
+        background-image: linear-gradient(to right, #ffffff 30%, #ffe346 70%);
+        font-weight: bold;
+        border: 1px lightgray solid;
+
+    }
+
+    #css {
+        padding: 10px;
+        margin: 10px;
+        position: absolute;
+        left: 56%;
+        background-image: linear-gradient(to right, #ffffff 30%, #ffe346 70%);
+        font-weight: bold;
+        border: 1px lightgray solid;
+
+    }
+}

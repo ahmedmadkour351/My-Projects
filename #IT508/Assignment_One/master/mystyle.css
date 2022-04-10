@@ -1,0 +1,110 @@
+* {
+  text-transform: capitalize;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header div {
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #05061a), color-stop(#566fa7), to(#f1f1f1));
+  background-image: linear-gradient(to right, #05061a 50%, #566fa7, #f1f1f1);
+  width: 99%;
+  height: 200px;
+  margin-right: 20px;
+}
+
+header img {
+  padding: 5px;
+  width: 385px;
+  height: 190px;
+  z-index: 2;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 75px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px auto;
+      grid-template-columns: 200px auto;
+  -ms-grid-rows: max-content;
+      grid-template-rows: -webkit-max-content;
+      grid-template-rows: max-content;
+  border: 1px lightgray solid;
+}
+
+section aside {
+  border: 1px lightgrey solid;
+  background-image: -webkit-gradient(linear, left top, right top, from(#171c69), color-stop(#566fa7), to(#f1f1f1));
+  background-image: linear-gradient(to right, #171c69, #566fa7, #f1f1f1);
+}
+
+section aside div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+}
+
+section aside button {
+  margin: 5px;
+  border: none;
+}
+
+section aside button:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#171c69), color-stop(#566fa7), to(#f1f1f1));
+  background-image: linear-gradient(to right, #171c69, #566fa7, #f1f1f1);
+  color: white;
+}
+
+section article {
+  border: 1px lightgray solid;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer #html {
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #ffffff), color-stop(70%, #ffe346));
+  background-image: linear-gradient(to right, #ffffff 30%, #ffe346 70%);
+  font-weight: bold;
+  border: 1px lightgray solid;
+}
+
+footer #css {
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  left: 56%;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #ffffff), color-stop(70%, #ffe346));
+  background-image: linear-gradient(to right, #ffffff 30%, #ffe346 70%);
+  font-weight: bold;
+  border: 1px lightgray solid;
+}
+/*# sourceMappingURL=mystyle.css.map */
