@@ -24,7 +24,7 @@ header {
 
     h1 {
         text-align: center;
-        font-size: 200px;
+        font-size: 75px;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -70,7 +70,7 @@ footer {
         padding: 10px;
         margin: 10px;
         position: absolute;
-        background-image: linear-gradient(to right, #ffffff 30%, #ffe346 70%);
+        background-image: linear-gradient(to right, #ffffff 30%, #ffffff 44%, #ffe346 56%, #ffe346 100%);
         font-weight: bold;
         border: 1px lightgray solid;
 
@@ -81,7 +81,7 @@ footer {
         margin: 10px;
         position: absolute;
         left: 56%;
-        background-image: linear-gradient(to right, #ffffff 30%, #ffe346 70%);
+        background-image: linear-gradient(to right, #ffffff 30%, #ffffff 56%, #ffe346 44%, #ffe346 100%);
         font-weight: bold;
         border: 1px lightgray solid;
 
