@@ -1,0 +1,41 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
+
+h1 {
+  position: absolute;
+  border: 1px lightgray solid;
+  width: 400px;
+  left: 40%;
+  padding-left: 10px;
+  top: 20px;
+}
+
+form {
+  border: 1px lightgray solid;
+  width: 400px;
+  position: absolute;
+  left: 40%;
+  top: 80px;
+  padding-left: 10px;
+}
+
+form input {
+  margin: 10px;
+}
+
+#b {
+  border: 1px lightgray solid;
+  position: absolute;
+  padding: 5px;
+  width: 400px;
+  left: 40%;
+  top: 409px;
+}
+
+#b #button {
+  position: relative;
+  left: 340px;
+}
+/*# sourceMappingURL=mystyle.css.map */
