@@ -100,8 +100,8 @@ footer #html {
 footer #css {
   padding: 10px;
   margin: 10px;
-  position: absolute;
-  left: 56%;
+  position: relative;
+  left: 120%;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #ffffff), color-stop(56%, #ffffff), color-stop(44%, #ffe346), to(#ffe346));
   background-image: linear-gradient(to right, #ffffff 30%, #ffffff 56%, #ffe346 44%, #ffe346 100%);
   font-weight: bold;

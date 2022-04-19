@@ -9,7 +9,9 @@ h1 {
   width: 400px;
   left: 40%;
   padding-left: 10px;
-  top: 20px;
+  top: 50px;
+  font-size: medium;
+  text-align: center;
 }
 
 form {
@@ -25,17 +27,16 @@ form input {
   margin: 10px;
 }
 
-#b {
+form #b {
   border: 1px lightgray solid;
   position: absolute;
-  padding: 5px;
   width: 400px;
-  left: 40%;
-  top: 409px;
+  padding-left: 10px;
+  top: 327px;
 }
 
-#b #button {
+form #b #button {
   position: relative;
-  left: 340px;
+  left: 300px;
 }
 /*# sourceMappingURL=mystyle.css.map */
