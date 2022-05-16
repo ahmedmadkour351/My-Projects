@@ -35,8 +35,15 @@ form #b {
   top: 327px;
 }
 
+form #b p {
+  font-size: 14px;
+  margin: 15px 0;
+  display: inline-block;
+  color: #ffffff;
+}
+
 form #b #button {
   position: relative;
-  left: 300px;
+  left: 100px;
 }
 /*# sourceMappingURL=mystyle.css.map */

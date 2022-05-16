@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Assignment_Two/master/mystyle.css">
+    <link rel="stylesheet" href="/master/script.js">
+    <!-- <script src="/master/script.js"></script> -->
     <title>Assignment Two</title>
 </head>
 
 <body>
     <h1>user registration form</h1>
-    <form action="" target="blanck">
+    <form action="#" target="blanck" method="post" name="form1">
         <label for="f-name">first name:</label>
         <input id="f-name" type="text" required placeholder="amit">
         <br>
@@ -22,10 +24,10 @@
         <input id="u-name" type="text" required placeholder="amitjain">
         <br>
         <label for="pass">password:</label>
-        <input id="pass" type="password">
+        <input id="pass" type="password" onclick="">
         <br>
-        <label for="conf-pass">confirm password:</label>
-        <input id="conf-pass" type="password">
+        <label for="confpass">confirm password:</label>
+        <input id="confpass" type="password">
         <br>
         <label for="gender">gender:</label>
         <input id="male" type="radio">
@@ -39,14 +41,10 @@
         <label for="e-id">email id</label>
         <input id="e-id" type="email">
         <div id="b">
-            <p>user registration successful</p>
-            <input id="button" type="submit" value="sign up">
+            <p id="message">user registration successful</p>
+            <input id="button" onclick="checkpassword()" type="submit" value="sign up">
         </div>
-
     </form>
-
-
-
 </body>
 
 </html>

@@ -34,9 +34,16 @@ form {
         padding-left: 10px;
         top: 327px;
 
+        p {
+            font-size: 14px;
+            margin: 15px 0;
+            display: inline-block;
+            color: #ffffff;
+        }
+
         #button {
             position: relative;
-            left: 300px;
+            left: 100px;
         }
 
     }
