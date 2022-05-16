@@ -1,0 +1,95 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    width: 1170px;
+  }
+}
+
+body header {
+  padding: 20px;
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav img {
+  width: 60px;
+}
+
+body header nav div span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 40px;
+  margin: 2px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body header nav div span span:first-child {
+  background-color: #333;
+  height: 2px;
+  width: 100%;
+}
+
+body header nav div span span:nth-child(2) {
+  background-color: #333;
+  height: 2px;
+  width: 60%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body header nav div span span:last-child {
+  background-color: #333;
+  height: 2px;
+  width: 100%;
+}
+
+body header nav div span :hover:nth-child(2) {
+  width: 100%;
+}
+
+body header nav div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+  width: 200px;
+}
+/*# sourceMappingURL=mystyle.css.map */
